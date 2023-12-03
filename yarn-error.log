@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js start
+
+PATH: 
+  /usr/local/share/nvm/current/bin:/usr/local/share/npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/root/.local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /workspace/package.json: Unexpected token 'p', "npm i -g pn"... is not valid JSON
+      at JSON.parse (<anonymous>)
+      at /opt/yarn-v1.22.19/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/yarn-v1.22.19/lib/cli.js:310:30)
+      at /opt/yarn-v1.22.19/lib/cli.js:321:13
+
+npm manifest: 
+  npm i -g pnpm
+  npm i -g tsx
+  pnpm i
+  tsx . 
+  
+  {
+  	"name": "discord-server-cloner-2",
+  	"version": "2.0",
+  	"description": "Discord Server Cloner 2.0 - Infinite community",
+  	"main": "src/index",
+  	"scripts": {
+  		"start": "tsx src/index"
+  	},
+  	"devDependencies": {
+  		"@types/gradient-string": "^1.1.2",
+  		"@types/node": "^20.6.0",
+  		"ts-node": "^10.9.1",
+  		"typescript": "^5.2.2"
+  	},
+  	"keywords": [],
+  	"author": "joaokristani",
+  	"license": "ISC",
+  	"dependencies": {
+  		"boxen": "^7.1.1",
+  		"chalk": "^5.3.0",
+  		"discord.js-selfbot-v13": "^2.15.0",
+  		"dotenv": "^16.3.1",
+  		"gradient-string": "^2.0.2",
+  		"node-fetch": "^3.3.2",
+  		"tsx": "^3.12.10"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

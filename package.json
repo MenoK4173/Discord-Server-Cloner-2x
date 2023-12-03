@@ -1,3 +1,8 @@
+npm i -g pnpm
+npm i -g tsx
+pnpm i
+tsx . 
+
 {
 	"name": "discord-server-cloner-2",
 	"version": "2.0",
